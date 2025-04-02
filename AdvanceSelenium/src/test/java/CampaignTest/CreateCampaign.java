@@ -77,7 +77,7 @@ public class CreateCampaign extends BaseClass {
 	
 	//@Parameters("browser")
 	@Test(groups= {"RegressionTest"})
-	public void createCampaignWithDateTest() throws InterruptedException, IOException{ // this is another testcase
+	public void createCampaignWithCloseDateTest() throws InterruptedException, IOException{ // this is another testcase
 		
 		JavaUtility jUtil = new JavaUtility();
 		int randomNum = jUtil.getRandomNum(1000);

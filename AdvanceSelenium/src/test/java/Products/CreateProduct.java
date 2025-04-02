@@ -38,7 +38,7 @@ public class CreateProduct extends BaseClass {
 
 	//@Parameters("browser")
 	@Test(groups={"Integration"})
-	public void createProductTest() throws InterruptedException, IOException {
+	public void addProductTest() throws InterruptedException, IOException {
 		
 		JavaUtility jUtil = new JavaUtility();
 		int randomNum = jUtil.getRandomNum(1000);
