@@ -29,7 +29,7 @@ import ObjectRepository.DashboardPage;
 import ObjectRepository.LoginPage;
 
 //@Listeners(ListenerImplementation.class)
-public class CreateContact extends BaseClass {
+public class CreateContactTest extends BaseClass {
 
 	//@Parameters("browser")
 	@Test(groups= {"RegressionTest"})

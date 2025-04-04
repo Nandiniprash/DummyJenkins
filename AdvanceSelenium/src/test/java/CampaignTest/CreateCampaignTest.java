@@ -25,7 +25,7 @@ import ObjectRepository.DashboardPage;
 import ObjectRepository.LoginPage;
 
 //@Listeners(ListenerImplementation.class)
-public class CreateCampaign extends BaseClass {
+public class CreateCampaignTest extends BaseClass {
 	
 	//@Parameters("browser") // this is only for crossbrowser execution
 	@Test()

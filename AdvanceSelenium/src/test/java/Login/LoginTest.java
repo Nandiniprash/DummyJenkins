@@ -30,7 +30,7 @@ import ObjectRepository.DashboardPage;
 import ObjectRepository.LoginPage;
 
 //@Listeners(ListenerImplementation.class)
-public class Login extends BaseClass { // this is class name
+public class LoginTest extends BaseClass { // this is class name
 
 	//@Parameters("browser")
 	@Test(groups={"SmokeTest"}, retryAnalyzer = GenericListenerUtility.RetryListenerImp.class)
