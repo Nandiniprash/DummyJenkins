@@ -8,7 +8,7 @@ public class PropertiesFileUtility {
 	
 	public String readingDataFromPropFile(String Key) throws IOException // this method i can call while reading data from prop file
 	{
-		FileInputStream fis= new FileInputStream("C:\\Users\\prash\\eclipse-workspace\\AdvanceSelenium\\src\\test\\resources\\CommonData.properties");
+		FileInputStream fis= new FileInputStream("C:\\Users\\prash\\Git\\E18_Batch\\AdvanceSelenium\\src\\test\\resources\\CommonData.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
 		String data = prop.getProperty(Key);

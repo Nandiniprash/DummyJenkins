@@ -36,7 +36,7 @@ public class LoginTest extends BaseClass { // this is class name
 	@Test(groups={"SmokeTest"}, retryAnalyzer = GenericListenerUtility.RetryListenerImp.class)
 	public void LoginTest() throws InterruptedException, IOException { // this is testcase name
 		
-		String expectedURL = "http://49.249.28.218:8098/dashboar";
+		String expectedURL = "http://49.249.28.218:8098/dashboard";
 		//Launching the browser
 //		WebDriver driver=null;
 //		ChromeOptions Coption=new ChromeOptions(); //headless testing

@@ -6,7 +6,7 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Login.Login">
+      <class name="Login.LoginTest">
         <methods>
           <include name="afterClass"/>
           <include name="afterTest"/>
@@ -18,7 +18,7 @@
           <include name="beforeClass"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- Login.Login -->
+      </class> <!-- Login.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
