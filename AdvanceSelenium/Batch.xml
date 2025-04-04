@@ -6,10 +6,10 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="CampaignTest.CreateCampaign"/>
-      <class name="Login.Login"/>
-      <class name="Contacts.CreateContact"/>
-      <class name="Products.CreateProduct"/>
+      <class name="CampaignTest.CreateCampaignTest"/>
+      <class name="Login.LoginTest"/>
+      <class name="Contacts.CreateContactTest"/>
+      <class name="Products.CreateProductTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
