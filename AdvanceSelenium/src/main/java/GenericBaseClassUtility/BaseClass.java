@@ -48,7 +48,8 @@ public class BaseClass {
 	{
 		//System.out.println("Before class method");
 		System.out.println("Launch the browser");
-		String BROWSER = propUtil.readingDataFromPropFile("browser");
+		//String BROWSER = propUtil.readingDataFromPropFile("browser");
+		String BROWSER = System.getProperty("browser");
 		if(BROWSER.equalsIgnoreCase("chrome"))
 		{
 			driver = new ChromeDriver();
@@ -74,8 +75,10 @@ public class BaseClass {
 		//System.out.println("Before method");
 		System.out.println("Login");
 		String URL = propUtil.readingDataFromPropFile("url");
-		String UN = propUtil.readingDataFromPropFile("uname");
-		String PWD = propUtil.readingDataFromPropFile("pwd");
+		//String UN = propUtil.readingDataFromPropFile("uname");
+		//String PWD = propUtil.readingDataFromPropFile("pwd");
+		String UN = System.getProperty("uname");
+		String PWD = System.getProperty("pwd");
 		driver.get(URL);
 		LoginPage lp = new LoginPage(driver);
 		lp.login(UN, PWD);
